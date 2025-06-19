@@ -7,7 +7,7 @@ function calculateDiscount(Bill, percentage, people){
       console.log("ijatosha");  
     }else{
         let perPersornCost = (Bill/ people) * (1 + percentage / 100);
-      console.log("unafaa :$"+ perPerperCost.toFixed(2));
+      console.log("unafaa :$"+ people.toFixed(2));
     }
 }
 calculateDiscount(Bill,percentage,people);
